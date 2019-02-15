@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unit Converter</title>
+    <meta name="description" content="Unit Converter">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app">
+      <h1 class="app-title">Converter</h1>
+      <div class="app-item">
+        <label for="kilogram-input">kilogram (kg)</label>
+        <input type="number" id="kilogram-input">
+      </div>
+      <div class="app-item">
+        <label for="pound-input">pound (lb)</label>
+        <input type="number" id="pound-input">
+      </div>
+      <p class="app-result">Result: <span id="result"></span></p>
+
+      <hr>
+
+      <div>
+        <h3>Useful conversions</h3>
+        <ul>
+          <li>1kg = 2.2046226218lb</li>
+          <li>1lb = 0.45359237kg</li>
+          <li>100kg = 220.46226218lb</li>
+          <li>200lb = 90.718474kg</li>
+          <li>300lb = 136.077711kg</li>
+          <li>400lb = 181.436948kg</li>
+          <li>500lb = 226.796185kg</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
