@@ -1,5 +1,9 @@
+html {
+  height: 100%;
+}
 body {
   margin-top: 3rem;
+  background: linear-gradient(#fff, #c9c9c9);
 }
 .main-title {
   text-align: center;
