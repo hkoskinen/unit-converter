@@ -1,34 +1,6 @@
-html {
-  box-sizing: border-box;
-}
-*, *::before, *::after {
-  box-sizing: inherit;
-}
 body {
-  font-family: monospace;
-  color: #333;
-  margin: 1rem;
+  margin-top: 3rem;
 }
-.app {
-  max-width: 480px;
-  margin: 0 auto;
-  padding: 1.3rem;
-  border-radius: 3px;
-  border: 1px solid #ccc;
-}
-.app-title {
-  font-size: 2rem;
+.main-title {
   text-align: center;
-  text-transform: uppercase;
-}
-.app-item input {
-  width: 100%;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border-radius: 3px;
-  border: 1px solid #666;
-}
-.app-result {
-  font-weight: bold;
-  font-size: 1.4rem;
 }
